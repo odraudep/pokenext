@@ -17,7 +17,7 @@
 }
 
 .logo__text {
-  color: #fc1c1a;
+  color: var(--primary-clr);
 }
 
 .logo__text span {

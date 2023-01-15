@@ -1,3 +1,7 @@
+:root {
+  --primary-clr: #fc1c1a;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -17,8 +21,12 @@ main {
   min-height: calc(100vh - (82px + 50px));
 }
 
+h1 {
+  margin-bottom: 1em;
+}
+
 .container {
-  max-width: 1300px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 1rem 2rem;
 }
