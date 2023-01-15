@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  app:
+    container_name: pokenext
+    image: pokenext_img:1.0.0
+    build: .
+    ports:
+      - 3000:3000
