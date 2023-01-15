@@ -14,7 +14,7 @@ export default function NotFound() {
         </header>
         <Button href="/">Return to home</Button>
 
-        <div className={styles['imgs-decorator']}>
+        <div className={styles['imgs-decoration']}>
           <Image
             src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/132.gif"
             width="40"

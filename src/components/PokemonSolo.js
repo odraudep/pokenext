@@ -3,8 +3,6 @@ import styles from '@/styles/Pokemon.module.css';
 import { cn } from '@/utils/attrFormatter';
 
 export default function PokemonSolo({ pokemon }) {
-  console.log(pokemon);
-
   return (
     <div className={styles.pokemon}>
       <div className="container">
@@ -12,6 +10,7 @@ export default function PokemonSolo({ pokemon }) {
         <Image
           src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${(`00${pokemon.id}`).slice(pokemon.id < 1000 ? -3 : 2)}.png`}
           alt={pokemon.name}
+          priority
           width="215"
           height="215"
         />

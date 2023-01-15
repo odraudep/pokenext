@@ -35,7 +35,15 @@ export default function Pokemon({ pokemon }) {
   const router = useRouter();
 
   if (router.isFallback) {
-    return <div>Loading...</div>;
+    return (
+      <>
+        <Head>
+          <title>Pokemon</title>
+        </Head>
+
+        <div>Loading...</div>
+      </>
+    );
   }
 
   return (

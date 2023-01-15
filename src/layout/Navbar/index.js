@@ -1,6 +1,18 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import styles from '@/styles/Navbar.module.css';
+import MenuItem from './MenuItem';
+
+const menuItems = [
+  {
+    label: 'Home',
+    path: '/',
+  },
+  {
+    label: 'About',
+    path: '/about',
+  },
+];
 
 export default function Navbar() {
   return (
@@ -15,11 +27,9 @@ export default function Navbar() {
         </Link>
 
         <ul className={styles.menu}>
-          <li>
-            <Link href="/">
-              Home
-            </Link>
-          </li>
+          {menuItems.map((item) => (
+            <MenuItem key={item.label} item={item} />
+          ))}
         </ul>
       </nav>
     </header>

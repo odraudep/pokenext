@@ -7,7 +7,7 @@ export default function PokemonCard({ pokemon }) {
     <li className={styles.card}>
       <Link href={`/pokemon/${pokemon.id}`}>
         <Image
-          src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${(`00${pokemon.id}`).slice(-3)}.png`}
+          src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${(`00${pokemon.id}`).slice(pokemon.id < 1000 ? -3 : 2)}.png`}
           alt={pokemon.name}
           width="180"
           height="180"

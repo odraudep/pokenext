@@ -5,6 +5,7 @@
   border-radius: .25em;
   background-color: var(--primary-clr);
   color: #fff;
+  box-shadow: .2em .2em .25em #00000040;
   transition: background-color .4s;
 }
 

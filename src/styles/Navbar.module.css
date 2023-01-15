@@ -29,3 +29,17 @@
   display: flex;
   gap: 1em;
 }
+
+.menu a {
+  color: #bbb;
+  transition: color .4s;
+}
+
+.menu a:hover,
+.menu a:focus {
+  color: #fff;
+}
+
+a.menu_item--actived {
+  color: #fff;
+}
