@@ -1,8 +1,11 @@
+
+
 .pokemons-list {
   list-style: none;
   display: flex;
   gap: 1.25rem;
   flex-wrap: wrap;
+  margin-top: 2rem;
 }
 
 .pokemons-list > li {

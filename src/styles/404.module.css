@@ -1,0 +1,14 @@
+.not-found {
+  text-align: center;
+}
+
+.not-found > div {
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+}
+
+.imgs-decorator {
+  display: flex;
+  gap: .5rem;
+}

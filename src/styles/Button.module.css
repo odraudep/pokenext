@@ -1,0 +1,14 @@
+.btn {
+  display: block;
+  width: fit-content;
+  padding: 1em 2em;
+  border-radius: .25em;
+  background-color: var(--primary-clr);
+  color: #fff;
+  transition: background-color .4s;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--primary-clr2);
+}
