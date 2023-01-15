@@ -5,7 +5,7 @@ import styles from '@/styles/PokemonCard.module.css';
 export default function PokemonCard({ pokemon }) {
   return (
     <li className={styles.card}>
-      <Link href={`/${pokemon.id}`}>
+      <Link href={`/pokemon/${pokemon.id}`}>
         <Image
           src={`https://assets.pokemon.com/assets/cms2/img/pokedex/detail/${(`00${pokemon.id}`).slice(-3)}.png`}
           alt={pokemon.name}

@@ -26,6 +26,7 @@
       "import/extensions": "off",
       "react/jsx-one-expression-per-line": "off",
       "no-console": "off",
-      "react/jsx-no-useless-fragment": "off"
+      "react/jsx-no-useless-fragment": "off",
+      "import/prefer-default-export": "off"
     }
 }
